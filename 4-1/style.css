@@ -1,7 +1,8 @@
 body{
 	margin:0;
 	padding:20px;
-	font-family: Phetsarath OT;
+	/* font-family: Phetsarath OT; */
+	font-family: 'Noto Serif Lao', serif;
 }
 
 *{
@@ -16,7 +17,7 @@ body{
 .table td,.table th{
   padding:12px 15px;
   border:1px solid #ddd;
-  text-align: center;
+  text-align: left;
   font-size:16px;
 }
 
@@ -65,6 +66,9 @@ body{
 	}
 }
 
+ul{
+	padding-left: 0px;
+}
 
 li{
 	list-style: none;
